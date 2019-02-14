@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">SMS Proxy</string>
+
+    <string name="ok">OK</string>
+    <string name="dummy">dummy</string>
+
+    <!-- MainActivity -->
+    <string name="title_about">About app</string>
+    <string name="title_settings">Settings</string>
+    <string name="title_status">Status</string>
+
+    <string name="text_about">&#x2022; SMS Proxy listens to incoming SMS messages and relies them to InputStick KP2A Plugin. The plugin is not allowed to read SMS directly due to Google Play Store rules
+        \n&#x2022; The app is open source and has no Internet or local storage access. Received SMS are never stored. The app listens to SMS only when requested to do so by the plugin
+        \n&#x2022; If you do not want to use this app, you can type text from SMS by coping it to system clipboard and using \"Type from clipboard\" option in the plugin</string>
+
+    <string name="text_plugin_integration_info">To activate/deactivete SMS Proxy go to InputStick KP2A Plugin settings SMS section</string>
+    <string name="text_plugin_integration_deactivated">SMS Proxy was NOT enabled by InputStick KP2A Plugin</string>
+    <string name="text_sms_no_permission">Application does NOT have permission to receive and read SMS</string>
+    <string name="text_sms_not_supported">This device does NOT support receiving SMS/ SMS Proxy app will not work properly and should be uninstalled</string>
+
+    <string name="button_webpage">Webpage</string>
+    <string name="button_source">Source code</string>
+    <string name="button_request_permission">Request SMS permission</string>
+    <string name="button_kp2a_plugin_settings">InputStick KP2A Plugin Settings</string>
+
+
+    <string name="text_show_notification">Show notification when listening for SMS</string>
+
+    <!-- ActivationActivity -->
+    <string name="title_activation_activate">Request access</string>
+    <string name="title_activation_deactivate">Revoke access</string>
+    <string name="title_activation_error">Error</string>
+    <string name="title_not_supported">SMS NOT supported</string>
+
+
+    <string name="text_activation_activate">InputStick KP2A Plugin wants to activate SMS Proxy app. Allow?\n&#x2022; SMS Proxy will be started/stopped by the plugin\n&#x2022; SMS Proxy will listen for incoming SMS messages when active\n&#x2022; SMS Proxy will relay received SMS text to the plugin\n&#x2022; SMS Proxy will not store SMS content</string>
+    <string name="text_activation_deactivate">InputStick KP2A Plugin deactivated SMS Proxy</string>
+    <string name="text_activation_error">Invalid request parameters</string>
+
+    <string name="button_allow">Allow</string>
+    <string name="button_deny">Deny</string>
+
+    <!-- Utils -->
+    <string name="title_sms_permission_request">SMS Permission</string>
+    <string name="text_sms_permission_request">SMS Proxy needs permission to read incoming SMS messages</string>
+
+    <!-- SMSService -->
+    <string name="text_notification_active">SMS Proxy is active</string>
+    <string name="text_notification_permission_error">SMS Proxy is active but has no permission to read SMS. Click to fix</string>
+    <string name="button_stop">Stop</string>
+
+</resources>
