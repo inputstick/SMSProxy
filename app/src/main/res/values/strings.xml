@@ -11,7 +11,9 @@
 
     <string name="text_about">&#x2022; SMS Proxy listens to incoming SMS messages and relies them to InputStick KP2A Plugin. The plugin is not allowed to read SMS directly due to Google Play Store rules
         \n&#x2022; The app is open source and has no Internet or local storage access. Received SMS are never stored. The app listens to SMS only when requested to do so by the plugin
-        \n&#x2022; If you do not want to use this app, you can type text from SMS by coping it to system clipboard and using \"Type from clipboard\" option in the plugin</string>
+        \n&#x2022; If you do not want to use this app, you can type text from SMS by coping it to system clipboard and using \"Type from clipboard\" option in the plugin
+        \n
+        \n©2019 Jakub Zawadzki, inputstick.com</string>
 
     <string name="text_plugin_integration_info">To activate/deactivete SMS Proxy go to InputStick KP2A Plugin settings SMS section</string>
     <string name="text_plugin_integration_deactivated">SMS Proxy was NOT enabled by InputStick KP2A Plugin</string>
